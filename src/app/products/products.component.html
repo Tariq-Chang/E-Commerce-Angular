@@ -1,0 +1,12 @@
+
+  <section class="main">
+    <div class="container">
+      <h2 class="common-heading py-2 fs-2 mt-3 fw-bold">Products</h2>
+      <!-- <span>{{products.length}}</span> -->
+      <div class="row g-2">
+        <div class="col-lg-4 col-sm-6" *ngFor="let productItem of products">
+          <app-product [title]="productItem.title" [imgUrl]="productItem.image" [category]="productItem.category" [price]="productItem.price"></app-product>  
+        </div>
+      </div>
+    </div>
+  </section>

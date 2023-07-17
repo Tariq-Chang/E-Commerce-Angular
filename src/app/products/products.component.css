@@ -1,0 +1,27 @@
+.main{
+    background:#ebebeb;
+    margin:0;
+    padding:5rem 0;
+    height:fit-content;
+  }
+  .container{
+    width:60%;
+  }
+
+  .common-heading{
+    padding-left:2px;
+  }
+
+
+
+  @media(max-width:768px){
+    .container{
+      width:80%;
+    }
+  }
+
+  @media(max-width:576px){
+    .container{
+      width:95%;
+    }
+  }

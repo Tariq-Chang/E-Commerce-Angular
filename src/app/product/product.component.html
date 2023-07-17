@@ -1,0 +1,19 @@
+<style></style>
+
+<section class="card shadow h-100">
+  <img
+    src={{imgUrl}}
+    class="img-fluid mt-3 mx-auto object-fit-contain h-100"
+    alt="..."
+  />
+  <div class="card-body">
+    <div class="badge pointer text-dark fw-normal rounded-pill fw-normal mt-1 py-2 border">
+      {{category}}
+    </div>
+    <h5 class="card-title fs-6 fw-semibold py-2 px-1">{{title.slice(0, 15)}}</h5>
+    <div>
+      <div class="cart-btn btn btn-sm btn-dark rounded">Add to Cart</div>
+    <p class='product-price float-end fw-bold fs-6 mt-1'>{{price}} $</p>
+    </div>
+  </div>
+</section>

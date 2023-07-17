@@ -1,0 +1,22 @@
+.img-fluid{
+    max-width:100%;
+    width:50%;
+}
+
+/* .card-body{
+    background:rgba(240,240,240);
+} */
+.card:hover{
+    transform:scale(0.98);
+    transition:transform .3s ease-in-out;
+    cursor:pointer;
+}
+
+.product-price{
+    letter-spacing:1px;
+    color:rgb(206, 134, 0);
+}
+
+.badge:hover{
+    background:#f8f8f8;
+}
